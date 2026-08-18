@@ -1,16 +1,37 @@
-# React + Vite
+# DevPath
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application that guides users through the proper process of developing a software system — from planning to maintenance.
 
-Currently, two official plugins are available:
+## Purpose
+Helps students, beginners, junior developers, and developers starting a new project understand what to do, how to do it, and what comes next at every stage of building software.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Target Users
+Students, beginners, junior developers, and developers starting a new project.
 
-## React Compiler
+## Tech Stack (V1)
+- React.js — Frontend
+- Vite — Build tool
+- Tailwind CSS — UI styling
+- React Router — Navigation
+- JavaScript — Logic
+- LocalStorage — Local data
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+V1 is frontend-only. V2 will add a full-stack backend (FastAPI + PostgreSQL/Supabase) with authentication, cloud projects, and multi-device sync.
 
-## Expanding the ESLint configuration
+## Core Features
+- Development Roadmap — the complete system development workflow
+- Guides — explanation of each development phase
+- Checklists — tasks users need to complete
+- Examples — practical examples for each phase
+- Templates — ready-to-use development documents
+- Project Workspace — apply the workflow to your own project
+- Progress Tracking — track completed phases and tasks
+- Search — find guides, tasks, and resources
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development Workflow
+Plan → Analyze → Design → Setup → Build → Integrate → Test → Debug → Secure → Optimize → Deploy → Document → Maintain
+
+Every phase contains: **What → Why → How → Example → Checklist → Deliverable → Next Step**
+
+## Status
+🚧 In development — V1 frontend-only

@@ -6,7 +6,7 @@ A web application that guides users through the proper process of developing a s
 Helps students, beginners, junior developers, and developers starting a new project understand what to do, how to do it, and what comes next at every stage of building software.
 
 ## Target Users
-Students, beginners, junior developers, and developers starting a new project.
+Students, beginners, and developers starting a new project.
 
 ## Tech Stack (V1)
 - React.js — Frontend
